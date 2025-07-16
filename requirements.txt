@@ -3,6 +3,5 @@ Flask-Session
 gunicorn
 python-dotenv
 google-generativeai
-fitz # This is the PyMuPDF library
-PyMuPDF # Sometimes needed explicitly
+PyMuPDF
 python-docx
