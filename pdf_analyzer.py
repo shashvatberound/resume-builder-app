@@ -13,7 +13,7 @@ load_dotenv()
 
 # --- MODIFIED: Gemini Client Initialization ---
 model = None
-try:
+try: 
     # Use the same environment variable as the main app
     gemini_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_key:
